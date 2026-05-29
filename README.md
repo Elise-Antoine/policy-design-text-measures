@@ -88,16 +88,16 @@ with established policy templates.
 ├── README.md
 ├── ncsl_extractor/
 │   ├── extract_ncsl_metadata.R       # Build bill index from NCSL tracker
-│   └── README.md
+│  
 ├── diversity/
 │   ├── compute_diversity.py          # Shannon entropy measure
 │   ├── requirements.txt
-│   └── README.md
+│   
 ├── stringency/
 │   ├── compute_stringency.py         # Constraining-language measure
 │   ├── constraining_words.txt        # Loughran-McDonald constraining dictionary
 │   ├── requirements.txt
-│   └── README.md
+│  
 ├── examples/
 │   ├── example_bill.pdf              # Sample US state AI bill
 │   └── example_outputs/              # Example results from running the scripts
